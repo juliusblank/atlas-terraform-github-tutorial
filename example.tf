@@ -5,7 +5,7 @@ resource "aws_instance" "main" {
     instance_type = "t2.micro"
 
     # CoreOS
-    ami = "ami-860a089b"
+    ami = "ami-840a0899"
 
     # This will create 1 instances
     count = 1
