@@ -4,8 +4,8 @@
 resource "aws_instance" "main" {
     instance_type = "t2.micro"
 
-    # Trusty 14.04
-    ami = "ami-2a734c42"
+    # CoreOS
+    ami = "ami-860a089b"
 
     # This will create 1 instances
     count = 1
